@@ -1,0 +1,10 @@
+{
+  "name": "pkg-a",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "exports": {
+    "./test-one": "./test-one.ts",
+    "./test-two": "./test-two.ts"
+  }
+}
