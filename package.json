@@ -2,17 +2,23 @@
   "name": "knip-repro",
   "private": true,
   "version": "1.0.0",
-  "main": "main.ts",
+  "main": "main.tsx",
   "license": "MIT",
   "workspaces": [
     "packages/*"
   ],
   "dependencies": {
-    "pkg-a": "workspace:*"
+    "pkg-a": "workspace:*",
+    "react": "18.3.1"
   },
   "packageManager": "yarn@4.9.1",
   "devDependencies": {
-    "knip": "^5.57.0",
-    "typescript": "^5.8.3"
+    "@types/react-redux": "^7.1.25",
+    "knip": "^5.60.0",
+    "typescript": "5.8.2"
+  },
+  "scripts": {
+    "test": "node ./scripts/test-one.js  --harmony",
+    "typecheck": "tsc"
   }
 }

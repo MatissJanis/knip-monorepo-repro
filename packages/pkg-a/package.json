@@ -3,8 +3,15 @@
   "private": true,
   "version": "1.0.0",
   "license": "MIT",
+  "scripts": {
+    "run": "ts:register ./test-six.ts"
+  },
   "exports": {
     "./test-one": "./test-one.ts",
-    "./test-two": "./test-two.ts"
+    "./test-two": "./test-two.ts",
+    "./test-seven": "./test-seven.tsx"
+  },
+  "dependencies": {
+    "react-redux": "7.2.4"
   }
 }
