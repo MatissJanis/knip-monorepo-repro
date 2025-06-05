@@ -1,4 +1,5 @@
 {
+  "entry": ["packages/pkg-a/worker-main.js"],
   "ignore": ["dist/**"],
   "includeEntryExports": true
 }
