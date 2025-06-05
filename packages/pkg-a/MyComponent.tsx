@@ -1,7 +1,7 @@
 import React from 'react';
 import { StateProps } from './test-seven';
 
-interface MyProps extends StateProps {
+export interface MyProps extends StateProps {
     test: true;
 }
 

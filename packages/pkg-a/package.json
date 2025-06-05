@@ -9,7 +9,8 @@
   "exports": {
     "./test-one": "./test-one.ts",
     "./test-two": "./test-two.ts",
-    "./test-seven": "./test-seven.tsx"
+    "./test-seven": "./test-seven.tsx",
+    "./node-process": "./test-node-process.ts"
   },
   "dependencies": {
     "react-redux": "7.2.4"

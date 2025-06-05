@@ -13,6 +13,7 @@
   },
   "packageManager": "yarn@4.9.1",
   "devDependencies": {
+    "@types/node": "^22.15.29",
     "@types/react-redux": "^7.1.25",
     "knip": "^5.60.0",
     "typescript": "5.8.2"
